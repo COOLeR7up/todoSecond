@@ -45,7 +45,9 @@ function Sandbox({test}) {
 
             <ul>
                 {
+                    // images.map(Math.floor(Math.random(i => <li>{i}</li>) * 4))
                     images.map(i => <li>{i}</li>)
+
                 }
             </ul>
 
